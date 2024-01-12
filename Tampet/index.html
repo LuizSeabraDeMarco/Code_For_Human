@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,24 +13,17 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;1,300;1,700&display=swap" rel="stylesheet">
     <title>Tampet</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
     <header id="header">
-        <span class="material-symbols-outlined" onClick='clickMenu()'>
+        <a href="menu.html" style="color: black"><span class="material-symbols-outlined" onClick='clickMenu()'>
             menu
-        </span>
+        </span></a>
         <h1>Tampet</h1>
         <a href="https://wa.me/5524993145325" target="_blank" style="color: black;"><span class="material-symbols-outlined">
             chat
         </span></a>
-        <div id="menu">
-            <a href="#">Quem somos</a>
-            <a href="#">Home</a>
-            <a href="#">Pontos de coleta</a>
-            <a href="#">Aceitamos</a>
-            <a href="#">Contato</a>
-        </div>
     </header>
     <main>
         <h2 style="color: #79b788; text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.181);">
@@ -70,7 +63,20 @@
         </div>
     </main>
     <footer>
-        
+        <h1 id="title_footer">Tampet</h1>
+        <p>
+            Somos uma organização sem fins lucrativos que luta contra oabandono e maus tratos de animais em todo o mundo.
+        </p>
+        <h3 onClick='link_insta()'>
+            Instagram
+        </h3>
+        <hr>
+        <a href="sobre_nos.html">Sobre Nós</a>
+        <a href="#">Home</a>
+        <a href="#">Pontos de coleta</a>
+        <a href="#">Aceitamos</a>
+        <a href="#">Contato</a>
+        <legend>Criador: Luiz Filipe Seabra de Marco</legend>
     </footer>
     <script src="scripts.js"></script>
 </body>

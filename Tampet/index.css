@@ -184,6 +184,56 @@ div#mais_dados1{
 
 footer{
     background-color: black;
-    height: 110vh;
+    height: 77vh;
     width: 100vw;
+    color: white;
+}
+
+footer > h1#title_footer{
+    color: white;
+    font-family: 'Rubik Doodle Shadow';
+    text-align: center;
+    padding-top: 20px;
+    font-size: 32px;
+}
+
+footer > p{
+    width: 90vw;
+    text-align: center;
+    margin: auto;
+    padding-top: 20px;
+    font-weight: lighter;
+    margin-bottom: 20px;
+}
+
+footer > h3{
+    padding: 10px;
+    width: 50vw;
+    margin: auto;
+    text-align: center;
+    font-weight: normal;
+    border-radius: 20px;
+    display: flex;
+    font-family: var(--font_titulo);
+    justify-content: center;
+    align-items: center;
+    text-decoration: underline;
+}
+hr{
+    margin-top: 20px;
+    font-size: 10px;
+    color: white;
+}
+
+footer > a{
+    display: block;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    margin: 40px;
+}
+
+legend{
+    color: darkgray;
+    text-align: center;
 }
